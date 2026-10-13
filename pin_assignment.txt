@@ -1,0 +1,30 @@
+# System Clock (50 MHz)
+set_location_assignment PIN_Y2 -to clk
+
+# IR Receiver
+set_location_assignment PIN_Y15 -to ir
+
+# LCD Pins
+set_location_assignment PIN_M5 -to data[7]
+set_location_assignment PIN_M3 -to data[6]
+set_location_assignment PIN_K2 -to data[5]
+set_location_assignment PIN_K1 -to data[4]
+set_location_assignment PIN_K7 -to data[3]
+set_location_assignment PIN_L2 -to data[2]
+set_location_assignment PIN_L1 -to data[1]
+set_location_assignment PIN_L3 -to data[0]
+set_location_assignment PIN_L4 -to en
+set_location_assignment PIN_M1 -to rw
+set_location_assignment PIN_M2 -to rs
+set_location_assignment PIN_L5 -to onn
+set_location_assignment PIN_L6 -to blon
+
+# Debugging Green LEDs
+set_location_assignment PIN_E21 -to LEDG[0]
+set_location_assignment PIN_E22 -to LEDG[1]
+set_location_assignment PIN_E25 -to LEDG[2]
+set_location_assignment PIN_E24 -to LEDG[3]
+set_location_assignment PIN_H21 -to LEDG[4]
+set_location_assignment PIN_G20 -to LEDG[5]
+set_location_assignment PIN_G22 -to LEDG[6]
+set_location_assignment PIN_G21 -to LEDG[7]
